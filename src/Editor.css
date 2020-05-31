@@ -1,0 +1,52 @@
+#editor {
+    width: 50%;
+    height: 200px;
+    overflow: scroll;
+    background-color: lightblue;
+    border-top: steelblue 2px solid;
+    display: block;
+    margin: 0 -3rem;
+    box-sizing: border-box;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* margin: 5% auto; */
+    /* align-items: center; */
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#editor::-webkit-scrollbar {
+    display: none;
+}
+
+.nav {
+    background-color: steelblue;
+    width: 50%;
+    margin: 0;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#buttonArea {
+    width: 50%;
+}
+
+#button {
+    float: right;
+    width: 8%;
+    background-color: lightblue;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5%;
+    font-weight: 500;
+}
+
+#button:hover {
+    background-color: rgb(160, 216, 235);
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: 600;
+}

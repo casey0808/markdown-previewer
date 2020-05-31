@@ -1,0 +1,28 @@
+#preview {
+  width: 70%;
+  height: 500px;
+  border: 1px black solid;
+  overflow: scroll;
+  margin-top: 0;
+  background-color: lightblue;
+}
+
+#preview::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  background-color: whitesmoke;
+}
+
+.nav2 {
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-left: 1rem;
+}
