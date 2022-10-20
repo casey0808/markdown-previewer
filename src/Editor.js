@@ -27,13 +27,13 @@ There's also [links](https://www.freecodecamp.com), and
     * With different indentation levels.
       * That look like this.
     
-1. And there are numbererd lists too.
+1. And there are numbered lists too.
 1. Use just 1s if you want! 
 1. But the list goes on...
 - Even if you use dashes or asterisks.
 * And last but not least, let's not forget embedded images:
     
-![React Logo w/ Text](https://goo.gl/Umyytc)
+![React Logo](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png)
 `;
   const [text, updateText, resetText] = useInput(initialVal);
   return (
