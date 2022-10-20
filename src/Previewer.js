@@ -1,14 +1,14 @@
-import React from 'react';
-import marked from 'marked';
-import './Previewer.css';
+import React from "react";
+import { marked } from "marked";
+import "./Previewer.css";
 
 function Previewer({ text }) {
   var markedText = marked(text);
-  console.log(markedText);
+  // console.log(markedText);
   return (
     <>
-      <h1 class='nav2'>Previewer</h1>
-      <div id='preview' dangerouslySetInnerHTML={{ __html: markedText }}></div>
+      <h1 className="nav2">Previewer</h1>
+      <div id="preview" dangerouslySetInnerHTML={{ __html: markedText }}></div>
     </>
   );
 }

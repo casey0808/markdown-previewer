@@ -38,7 +38,7 @@ There's also [links](https://www.freecodecamp.com), and
   const [text, updateText, resetText] = useInput(initialVal);
   return (
     <>
-      <label for='editor' className='nav'>
+      <label htmlFor='editor' className='nav'>
         Editor
       </label>
       <textarea
