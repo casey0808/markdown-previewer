@@ -35,7 +35,12 @@ There's also [links](https://www.freecodecamp.com), and
     
 ![React Logo](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png)
 `;
-  const [text, updateText, resetText] = useInput(initialVal);
+
+  const customVal = window.localStorage.getItem('Markdown')
+    ? JSON.parse(window.localStorage.getItem('Markdown'))
+    : initialVal;
+  const [text, updateText, resetText] = useInput(customVal);
+
   return (
     <>
       <label htmlFor='editor' className='nav'>
